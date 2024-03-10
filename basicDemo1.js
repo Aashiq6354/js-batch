@@ -1,31 +1,59 @@
-// console.log("hello world");
-// console.warn("Heelo this is warn function");
-// console.info("Infomation function")
-// console.error("Error Function");
+// console.log("Hello world");
+// console.info("Hello");
+// console.warn("It is Warn function");
+// console.error("It is error fuunction")
 
+// a = "Shree ram";
+// console.log("valu of a = ",a);
+// console.log("type of a = ",typeof(a));
 
-a = 10;
+// avg = 12.78;
+// console.log("value of avg = ",avg);
+// console.log("Type of avg = ",typeof avg);
 
-console.log("Value of a = "+a);
-console.log("type of a = ",typeof(a));
+// name = "J";
+// console.log("Value of name = ",name);
+// console.log("Type of Name =", typeof name);
 
-b = 20.5;
-console.log("value of b = ",b);
-console.log("type of b = ",typeof b);
+// isActive = true;
+// console.log("value of isActive = ",isActive);
+// console.log("Type of isActive = ",typeof isActive);
 
-c = "Hello World";
-console.log("Value of c =",c)
-console.log("Type of c=",typeof c)
-
-
-isActive = true 
-console.log("isActive = ",isActive);
-console.log("Type of isActive= ",typeof isActive)
-
-let x;
-console.log("value of x = ",x);
-console.log("Type of x = ", typeof x)
+// let x;
+// console.log("The value of x is",x);
+// console.log("The type of x is ",typeof x);
 
 
 
-// Datetypes :- number , string , Boolean ,  Null and Undefined.
+// // There are three keywords here 
+// 1. Let 
+// 2. Var
+// 3. const
+
+
+var x = 5;
+console.log("outer x = ",x);
+
+let y = "shree  ram";
+console.log("outer y = ",y);
+const  pi = 3.14;
+console.log("outer pi = ",pi);
+
+
+
+{
+    console.log("Inner x =",x);
+    console.log("inner y",y);
+    var z = 6;
+    console.log("inner z = ",z);
+    let xyz = true;
+    console.log("inner xyz = ",xyz);
+
+    console.log("inner pi = ",pi);
+}
+console.log("Outer z = ",z)
+// console.log("inner xyz = ",xyz);
+
+
+
+// Data type :- number , string , Boolean , Null , Undefined
